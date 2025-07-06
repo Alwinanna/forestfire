@@ -4,9 +4,7 @@
   <i>Built for ISRO Hackathon 2025 | By a Full-Stack ML Engineer</i>
 </p>
 
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Wildfire_in_California.jpg/800px-Wildfire_in_California.jpg" width="80%"/>
-</p>
+
 
 ---
 
