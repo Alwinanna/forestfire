@@ -55,7 +55,5 @@ https://bucolic-stroopwafel-d8b06d.netlify.app/
 - 🌐 Built a **cloud pipeline** to handle multi-temporal imagery and large-scale raster operations  
 - 🧪 Used **Bayesian Deep Learning** to model uncertainty in fire forecasts
 
----
-
-## 🗂️ Project Structure
+--
 
