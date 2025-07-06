@@ -1,0 +1,58 @@
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Divine Glow Effect -->
+    <radialGradient id="divineGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.6" />
+      <stop offset="40%" stop-color="#10b981" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#059669" stop-opacity="0" />
+    </radialGradient>
+    
+    <!-- Sacred Herb Gradient -->
+    <linearGradient id="herbGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="30%" stop-color="#10b981" />
+      <stop offset="70%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    
+    <!-- Life Force Gradient -->
+    <linearGradient id="lifeForce" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    
+    <!-- Sacred Stem Gradient -->
+    <linearGradient id="stemGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#16a34a" />
+      <stop offset="50%" stop-color="#15803d" />
+      <stop offset="100%" stop-color="#166534" />
+    </linearGradient>
+  </defs>
+
+  <!-- Divine Background Aura -->
+  <circle cx="60" cy="60" r="55" fill="url(#divineGlow)" />
+
+  <!-- Sacred Stem -->
+  <path d="M60 95 Q58 85 60 75 Q62 65 60 55 Q58 45 60 35" stroke="url(#stemGradient)" stroke-width="4" fill="none" stroke-linecap="round" />
+
+  <!-- Main Sanjeevani Leaf (Center) - The Life-Giving Leaf -->
+  <path d="M60 35 C75 25, 90 35, 85 55 C80 75, 65 80, 50 75 C35 70, 30 55, 35 40 C40 25, 50 20, 60 35 Z" fill="url(#herbGradient)" stroke="#047857" stroke-width="2" />
+
+  <!-- Left Sacred Leaf -->
+  <path d="M45 50 C35 45, 25 50, 28 65 C31 80, 42 82, 50 78 C58 74, 60 65, 55 55 C50 45, 47 42, 45 50 Z" fill="url(#herbGradient)" stroke="#047857" stroke-width="1.5" opacity="0.9" />
+
+  <!-- Right Sacred Leaf -->
+  <path d="M75 50 C85 45, 95 50, 92 65 C89 80, 78 82, 70 78 C62 74, 60 65, 65 55 C70 45, 73 42, 75 50 Z" fill="url(#herbGradient)" stroke="#047857" stroke-width="1.5" opacity="0.9" />
+
+  <!-- Sacred Veins in Main Leaf - Life Force Channels -->
+  <path d="M60 40 Q65 50 60 60 M55 45 Q60 50 55 55 M65 45 Q60 50 65 55 M60 35 Q70 45 75 50 M60 35 Q50 45 45 50" stroke="url(#lifeForce)" stroke-width="1.5" fill="none" opacity="0.8" />
+
+  <!-- Central Sacred Bindu - Source of Life -->
+  <circle cx="60" cy="50" r="3" fill="url(#lifeForce)" />
+
+  <!-- Sacred Healing Aura Rings -->
+  <circle cx="60" cy="60" r="25" fill="none" stroke="#10b981" stroke-width="0.5" opacity="0.3" />
+  <circle cx="60" cy="60" r="35" fill="none" stroke="#10b981" stroke-width="0.5" opacity="0.2" />
+  <circle cx="60" cy="60" r="45" fill="none" stroke="#10b981" stroke-width="0.5" opacity="0.1" />
+</svg>
